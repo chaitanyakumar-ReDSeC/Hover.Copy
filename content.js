@@ -85,7 +85,7 @@ function insertTextAtCursor(el, text) {
 function showFeedback(element) {
   if (!element) return;
   const originalOutline = element.style.outline;
-  element.style.outline = '2px solid #00FF00';
+  element.style.outline = '2px solid #C20000';
   setTimeout(() => {
     element.style.outline = originalOutline;
   }, 400);
